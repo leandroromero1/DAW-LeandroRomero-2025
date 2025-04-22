@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <form>
+        <label for="Nombre">
+            Nombre
+        </label>
+        <input type="text" id="Nombre" name="Nombre">
+        <label for="Apellido">Apellido</label>
+        <input form="Apellido" id="Apellido" name="Apellido">
+        
+        <p>Es tu primera vez completando un formulario?</p>
+        <input type="radio" id="no" name="pregunta_sobre_form" value="no">
+        <label for="no">No</label><br> <!--ya se que esto esta mal pero para que se entienda-->
+        <input type="radio" id="negativo" name="pregunta_sobre_form" value="negativo">
+        <label for="negativo">Negativo</label> <br>
+        <input type="radio" name="pregunta_sobre_form" id="tampoco" value="tampoco">
+        <label for="tampoco">Tampoco</label> <br>
+
+        <p>Que tipo de chancletas usas? (puede marcar mas de una opcion)</p>
+        <input type="checkbox" name="chancleta1" id="chancleta1" value="ojotas">
+        <label for="chancleta1">Ojotas</label> <br>
+        <input type="checkbox" name="chancleta2" id="chancleta2" value="crocs">
+        <label for="chancleta2">Crocs</label> <br>
+        <input type="checkbox" name="chancleta3" id="chancleta3" value="alpargatas">
+        <label for="chancleta3">Alpargatas</label> <br>
+        <input type="checkbox" name="chancleta4" id="chancleta4" value="en_patas">
+        <label for="chancleta4">Ninguno, ando en patas</label> <br>
+
+        <label for="mk">Elegi un personake del Mortal Kombat:</label>
+        <select id="mk" name="mk">
+            <option disabled selected value>--elegi una opcion--</option>
+            <option value="scorpion">Scorpion</option>
+            <option value="sub_zero">Sub-Zero</option>
+            <option value="reptile">Reptile ahre</option>
+            <option value="ermac">Ermac ahre x2</option>
+            <option value="sf">Ni idea, soy un gordo street fighter</option>
+
+        </select> <br>
+
+
+
+        <label for="palabras_finales">Conclusion final</label>
+        <textarea name="palabras_finales" id="palabras_finales" placeholder="Unas palabras antes de irte..."></textarea>
+
+        <p>Antes de irte, te invito a presionar este boton, no hace nada :D </p>
+        <button type="button">Boton que no hace nada</button>
+        <p>Este boton de abajo envia todos los datos que subiste a una base de datos secreta, tus datos seran vendidos a china.</p>
+        <input type="submit" value="Submit">
+    </form>
+</html>
