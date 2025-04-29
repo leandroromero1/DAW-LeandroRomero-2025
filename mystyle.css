@@ -1,0 +1,42 @@
+h1 {
+    font-size: 44px;
+    margin-left: 10%;
+    margin-right: 60%;
+}
+
+h2 {
+    font-size: 22px;
+    margin-left: 10%;
+    margin-right: 60%;
+}
+
+p {
+    font-size: 19px;
+    margin-left: 10%;
+    margin-right: 60%;
+}
+
+h3 {
+    font-size: 24px;
+    margin-left: 10%;
+    margin-right: 60%;
+}
+
+footer{
+    font-size: 15px;
+    margin-left: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+div{
+    font-size: 26px;
+    margin-left: 10%;
+    font-weight: 400;
+    font-variant: small-caps;
+    margin-right: 60%;
+}
+
+img{
+    margin-left: 10%;
+}
